@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Nanum+Myeongjo&family=Quicksand:wght@300&family=Rajdhani&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+.cont {
+    background-image: url(https://i.postimg.cc/vTvjfpfc/pexels-lukas-628241.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: cinzel;
+}
+.landing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: quicksand;
+    color: #104C64;
+}
+p {
+    font-size: x-large;
+}
+button {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px;
+    color: #104C64;
+    border-color: #104C64;
+    font-weight: bold;
+}
+.text-center {
+    font-family: quicksand;
+}
