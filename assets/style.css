@@ -2,13 +2,21 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 .cont {
     background-image: url(https://i.postimg.cc/vTvjfpfc/pexels-lukas-628241.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; 
     width: 100vw;
     height: 100vh;
+    font-family: cinzel;
+}
+.back {
+    background-image: url(https://i.postimg.cc/vTvjfpfc/pexels-lukas-628241.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: cinzel;
 }
 .landing {
@@ -22,14 +30,52 @@
 p {
     font-size: x-large;
 }
+.navbar {
+    font-family: cinzel;
+}
 button {
     background-color: transparent;
     border-radius: 10px;
     padding: 5px;
-    color: #104C64;
     border-color: #104C64;
     font-weight: bold;
 }
+.none {
+    text-decoration: none;
+    color: #104C64;
+}
 .text-center {
     font-family: quicksand;
+    font-weight: lighter;
+}
+.space {
+    width: 20rem;
+    height: 10rem;
+    display: grid;
+    place-items: center;
+    background-color: transparent;
+}
+form {
+    display: grid;
+    place-items: center;
+}
+#about {
+    width: 100vw;
+    min-height: 100vh;
+}
+.text-black {
+    text-decoration: none;
+}
+.last {
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+@media screen and (max-width: 420px) {
+    .card{
+        width: 300px;
+    }
 }
